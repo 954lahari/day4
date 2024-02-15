@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz System</title>
+    <link rel="stylesheet" href="day4.css">
+</head>
+<body>
+    <div class="container">
+        <section class="quiz-questions">
+            <h2>Quiz Questions</h2>
+            <form id="quiz-form">
+                <div class="question" id="question1">
+                    <h3>Question 1:</h3>
+                    <p>1) Select the correct option 'What is the capital of France?'</p>
+                    <input type="radio" name="question1" value="a .'Paris'  id="q1-option1">
+                    <label for="q1-option1">a . 'Paris'</label><br>
+                    <input type="radio" name="question1" value="b . 'London' id="q1-option2">
+                    <label for="q1-option2">b . 'London'</label><br>
+                    <input type="radio" name="question1" value="c . 'Berlin'  id="q1-option3">
+                    <label for="q1-option3">c .'Berlin'</label><br>
+                    <input type="radio" name="question1" value="d . 'Madrid' id="q1-option4">
+                    <label for="q1-option4">d .'Madrid' </label><br>
+                </div>
+                <hr>
+                <div class="question" id="question2">
+                    <h3>Question 2:</h3>
+                    <p>2) 'Which country won the FIFA World Cup in 2018?'</p>
+                    <input type="radio" name="question2" value="a .'Brazil' id="q1-option1">
+                    <label for="q1-option1">a . 'Brazil'</label><br>
+                    <input type="radio" name="question2" value="b . 'Germany' id="q1-option2">
+                    <label for="q1-option2">b . 'Germany'</label><br>
+                    <input type="radio" name="question2" value="c .'France'id="q1-option3">
+                    <label for="q1-option3">c .'France'</label><br>
+                    <input type="radio" name="question2" value="d .'Argentina' id="q1-option4">
+                    <label for="q1-option4">d .'Argentina'</label><br>
+                </div>
+                <hr>
+                <div class="question" id="question3">
+                    <h3>Question 3:</h3>
+                    <p>3)  Choose the correct 'Which planet is known as the Red Planet?'</p>
+                    <input type="radio" name="question3" value="a . 'Mars'id="q1-option1">
+                    <label for="q1-option1">a .'Mars' </label><br>
+                    <input type="radio" name="question3" value="b .'Venus' id="q1-option2">
+                    <label for="q1-option2">b .'Venus'</label><br>
+                    <input type="radio" name="question3" value="c . 'Mercury' id="q1-option3">
+                    <label for="q1-option3">c . 'Mercury'</label><br>
+                    <input type="radio" name="question3" value="d . 'Uranus' id="q1-option4">
+                    <label for="q1-option4">d .'Uranus' </label><br>
+                </div>
+                <hr>
+                <div class="question" id="question4">
+                    <h3>Question 4:</h3>
+                    <p>4) 'What is the tallest mountain in the world?'</p>
+                    <input type="radio" name="question4" value="a .'Mount Everest' id="q1-option1">
+                    <label for="q1-option1">a .'Mount Everest'</label><br>
+                    <input type="radio" name="question4" value="b . 'K2'id="q1-option2">
+                    <label for="q1-option2">b .'K2'</label><br>
+                    <input type="radio" name="question4" value="c .'Kangchenjunga'  id="q1-option3">
+                    <label for="q1-option3">c .'Kangchenjunga'</label><br>
+                    <input type="radio" name="question4" value="d .'Makalu'  id="q1-option4">
+                    <label for="q1-option4">d . 'Makalu'</label><br>
+                </div>
+                <hr>
+                <div class="question" id="question5">
+                    <h3>Question 5:</h3>
+                    <p>5)'What is the chemical symbol for gold?'</p>
+                    <input type="radio" name="question5" value="a .'Au'id="q1-option1">
+                    <label for="q1-option1">a .'Au'</label><br>
+                    <input type="radio" name="question5" value="b . 'Ag'id="q1-option2">
+                    <label for="q1-option2">b .'Ag'</label><br>
+                    <input type="radio" name="question5" value="c .'Cu'  id="q1-option3">
+                    <label for="q1-option3">c .'Cu'</label><br>
+                    <input type="radio" name="question5" value="d . 'Fe'id="q1-option4">
+                    <label for="q1-option4">d .'Fe'</label><br>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="result-display">
+            <h2>Result Display Area</h2>
+            <p id="result"></p>
+            <div class="container">
+                <u><h1>Quiz Results</h1></u>
+                <div class="result">
+                    <p><b>Question 1:</b> Select the correct option to capital of France?</p>
+                    <p><b>Your Answer:</b> -------</p>
+                    <p><b>correct Answer:</b> Paris</p>
+                </div>
+                <hr>
+                <div class="result">
+                    <p><b>Question 2:</b> FIFA World Cup in 2018?</p>
+                    <p><b>Your Answer:</b> -------</p>
+                    <p><b>correct Answer:</b>France </p>
+                </div>
+                <hr>
+                <div class="result">
+                    <p><b>Question 3:</b>Choose the correct the Red Planet? </p>
+                    <p><b>Your Answer:</b> -------</p>
+                    <p><b>correct Answer:</b>Mars</p>
+                </div>
+                <hr>
+                <div class="result">
+                    <p><b>Question 4:</b>tallest mountain in the world?</p>
+                    <p><b>Your Answer:</b> -------</p>
+                    <p><b>correct Answer:</b>Mount Everest</p>
+                </div>
+                <hr>
+                <div class="result">
+                    <p><b>Question 5:</b>chemical symbol for gold?</p>
+                    <p><b>Your Answer:</b> -------</p>
+                    <p><b>correct Answer:</b>Au</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
